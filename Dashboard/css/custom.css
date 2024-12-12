@@ -1,0 +1,10 @@
+@media (max-width:767px) {
+    .form-row.sb {
+        margin: 0;
+    }
+
+    .sub-sb{
+        padding-bottom: 24px;
+    }
+}
+
