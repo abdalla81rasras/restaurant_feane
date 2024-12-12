@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: grid;
+    position: relative;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-bg{
+    background-color: rgba(0, 0, 0, 0.541) ;
+    width: 400px;
+}
+
+form h2  , .btn , label , .back a small{
+  font-family: 'Dancing Script', cursive;
+}
+
+form h2{
+  font-size: 38px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.btn-primary2 {
+  color: #fff;
+  background-color: #ffbe33;
+  border-color: #ffbe33; 
+}
+
+.btn-primary2:hover {
+  color: #fff;
+  background-color: rgb(248, 203, 107);
+  border-color: rgb(252, 203, 97); 
+}
+
+.btn-primary2:focus, .btn-primary2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(224, 154, 88, 0.5); 
+}
+
+.btn-primary2.disabled, .btn-primary2:disabled {
+  color: #fff;
+  background-color: #ffbe33;
+  border-color: #ffbe33; 
+}
+
+.btn-primary2:not(:disabled):not(.disabled):active, .btn-primary2:not(:disabled):not(.disabled).active,
+.show > .btn-primary2.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(248, 203, 107);
+  border-color: rgb(252, 203, 97); 
+}
+
+.btn-primary2:not(:disabled):not(.disabled):active:focus, .btn-primary2:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary2.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(224, 154, 88, 0.5); 
+}
+
+.text-primary2{
+    color: #ffbe33;
+}
+
+hr{
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+.form-control{
+    color: #ffbe33;
+}
+
+.form-control:focus {
+    color: #ffbe33;
+    background-color: rgb(252, 203, 97);
+    border-color: rgb(252, 203, 97);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(224, 154, 88, 0.5);
+}
+  
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+  
+select.form-control:focus::-ms-value {
+    color: #495057;
+    background-color: #fff;
+}
+
+.fa-eye-slash , .fa-eye{
+    color: #ffbe33;
+    float: right;
+    position: relative;
+    top: -27px;
+    left: -10px;
+    cursor: pointer;
+}
